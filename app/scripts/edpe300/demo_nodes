@@ -1,0 +1,16 @@
+operant conditioning,punishment,decrease frequency,color=red
+operant conditioning,reinforcement,increase frequency,color=green
+
+punishment,presentation,color=red
+punishment,removal,color=red
+punishment,positive,add stimulus,color=red
+punishment,negative,remove stimulus,color=red
+
+reinforcement,positive,add stimulus,color=green
+reinforcement,negative,remove stimulus,color=green
+reinforcement,reinforcers,color=green
+
+reinforcers,primary,color=green
+reinforcers,secondary,color=green
+
+negative,delay gratification,color=red

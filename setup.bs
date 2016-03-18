@@ -1,0 +1,17 @@
+#Stuff written after "#" are comments.
+
+#Update Linux. If your system is very outdated, it may have trouble finding installation packages.
+sudo apt-get update
+
+#Install the Python programming language, a team coding tool called git, and a tool for Python called virtual environment.
+sudo apt-get install python3 git python3.4-venv
+
+#Create a new virtual environment. This separates the Python we will use on Linux, and the Python we will use for our web page.
+pyvenv-3.4 venv
+
+venv/bin/pip3 install flask
+#venv/bin/pip3 install sqlalchemy
+#venv/bin/pip3 install flask-sqlalchemy
+#venv/bin/pip3 install flask-wtf
+
+chmod +x run.py
